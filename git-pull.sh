@@ -17,7 +17,7 @@ git clone -b gh-pages git@github.com:jaywcjlove/linux-command.git
 cp README.md linux-command/README.md
 cp img/banner.svg linux-command/img/banner.svg
 cd linux-command
-echo 'linux.aliang.link' > CNAME
+# echo 'linux.aliang.link' > CNAME
 
 rm -rf .git/
 git init
