@@ -22,8 +22,9 @@ echo 'linux.aliang.link' > CNAME
 rm -rf .git/
 git init
 git add -A
+git branch -m master
 git commit -m 'GitHub Actions 自动更新部署 🚀'
-git push -f git@github.com:imaliang/linux-command.git gh-pages:gh-pages
+git push -f git@github.com:imaliang/linux-command.git master:gh-pages
 echo '🎉 🎉 🎉 linux-command deploy to gitHub pages success 🎉 🎉 🎉'
 
 
